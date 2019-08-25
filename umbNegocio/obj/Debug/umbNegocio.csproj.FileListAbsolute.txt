@@ -1,0 +1,214 @@
+D:\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+D:\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+D:\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+D:\Aplicaciones windows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\Aplicaciones windows\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+D:\Aplicaciones windows\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\Proyectos\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+D:\Proyectos\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\Proyectos\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+D:\Proyectos\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+D:\Proyectos\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\Proyectos\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+D:\Proyectos\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+E:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+E:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+E:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+E:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+E:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+E:\AppWindows\Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+E:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+E:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+E:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+C:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+C:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+C:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+C:\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+C:\AppWindows\Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+C:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+C:\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbNegocio\bin\Debug\umbDatos.xml
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbDatos.xml
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+C:\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+C:\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+C:\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+C:\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+C:\AppWindows\C-Umbrella\umbNegocio\bin\Debug\umbDatos.xml
+C:\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+C:\AppWindows\C-Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+C:\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+C:\AppWindows\C-Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+C:\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbNegocio.dll
+C:\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbNegocio.pdb
+C:\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbDatos.dll
+C:\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbDatos.xml
+C:\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+C:\AppWindows\Umbrella-C\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+C:\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.dll
+C:\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbNegocio.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\bin\Debug\umbDatos.xml
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbNegocio\obj\Debug\umbNegocio.pdb
+C:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+C:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+C:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+C:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+C:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+C:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+C:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+C:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+D:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+D:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+D:\AppWindows\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+D:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+D:\AppWindows\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll.config
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll.config
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll.config
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+D:\AppVisualStudio\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+E:\Proyectos\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll.config
+E:\Proyectos\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+E:\Proyectos\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+E:\Proyectos\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+E:\Proyectos\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+E:\Proyectos\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+E:\Proyectos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+E:\Proyectos\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Proyectos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+E:\Proyectos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+E:\Proyectos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+E:\Desarrollos\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll.config
+E:\Desarrollos\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.dll
+E:\Desarrollos\Umbrella-VC\umbNegocio\bin\Debug\umbNegocio.pdb
+E:\Desarrollos\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.dll
+E:\Desarrollos\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.pdb
+E:\Desarrollos\Umbrella-VC\umbNegocio\bin\Debug\umbDatos.xml
+E:\Desarrollos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+E:\Desarrollos\Umbrella-VC\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Desarrollos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+E:\Desarrollos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.dll
+E:\Desarrollos\Umbrella-VC\umbNegocio\obj\Debug\umbNegocio.pdb
+D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb

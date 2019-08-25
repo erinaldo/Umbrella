@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>umbDatos</name>
+    </assembly>
+    <members>
+        <member name="M:pysDatos.csConexion.funTraerValorEscalar(System.String,System.Object[])">
+            Obtiene un Valor de una funcion Escalar a partir de un Procedimiento Almacenado, con Params de Entrada
+        </member>
+        <member name="M:pysDatos.csConexion.IniciarTransaccion">
+            <summary>
+            Comienza una Transacción en la base en uso. 
+            </summary>
+        </member>
+        <member name="M:pysDatos.csConexion.TerminarTransaccion">
+            <summary>
+            Ejecuta COMMIT de la transacción activa. 
+            </summary>
+        </member>
+        <member name="M:pysDatos.csConexion.AbortarTransaccion">
+            <summary>
+            Realiza un ROLLBACK de la transacción activa
+            </summary>
+        </member>
+        <member name="M:pysDatos.csAccesoDatos.funIniciarSesion(System.String,System.String,System.String,System.String)">
+            <summary>
+            Establece una conexión a la base de datos según los parámetros especificados.
+            </summary>
+            <param name="nombreServidor"></param>
+            <param name="baseDatos"></param>
+            <param name="usuario"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:pysDatos.csAccesoDatos.funIniciarSesion(System.String)">
+            <summary>
+            Crea una conexión según la cadena ConnectionString establecida en el archivo de configuración (.config)
+            </summary>
+            <param name="connstringName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

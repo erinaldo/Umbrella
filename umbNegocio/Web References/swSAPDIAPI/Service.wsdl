@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="ITA.Diapi.WS" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="ITA.Diapi.WS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="ITA.Diapi.WS">
+      <s:element name="metWSInsertarJournalVouchers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="varCadena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="metWSInsertarJournalVouchersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="metWSInsertarJournalVouchersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="metWSEstructuraJournalVouchers">
+        <s:complexType />
+      </s:element>
+      <s:element name="metWSEstructuraJournalVouchersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="metWSEstructuraJournalVouchersResult" type="tns:clsJournalVouchers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="clsJournalVouchers">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ReferenceDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DueDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TaxDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Memo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodUsuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fecha" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ip" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Numero" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="JournalVouchersDet" type="tns:ArrayOfClsJournalVouchersDet" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfClsJournalVouchersDet">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="clsJournalVouchersDet" nillable="true" type="tns:clsJournalVouchersDet" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsJournalVouchersDet">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AccountCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Debit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Credit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LineMemo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReferenceDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DueDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TaxDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CostingCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CostingCode2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CostingCode3" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="metWSInsertarJournalVouchersSoapIn">
+    <wsdl:part name="parameters" element="tns:metWSInsertarJournalVouchers" />
+  </wsdl:message>
+  <wsdl:message name="metWSInsertarJournalVouchersSoapOut">
+    <wsdl:part name="parameters" element="tns:metWSInsertarJournalVouchersResponse" />
+  </wsdl:message>
+  <wsdl:message name="metWSEstructuraJournalVouchersSoapIn">
+    <wsdl:part name="parameters" element="tns:metWSEstructuraJournalVouchers" />
+  </wsdl:message>
+  <wsdl:message name="metWSEstructuraJournalVouchersSoapOut">
+    <wsdl:part name="parameters" element="tns:metWSEstructuraJournalVouchersResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="metWSInsertarJournalVouchers">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método utilizado para insertar asientos contables en borrador</wsdl:documentation>
+      <wsdl:input message="tns:metWSInsertarJournalVouchersSoapIn" />
+      <wsdl:output message="tns:metWSInsertarJournalVouchersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="metWSEstructuraJournalVouchers">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método utilizado para recuperar la estructura del asiento contable</wsdl:documentation>
+      <wsdl:input message="tns:metWSEstructuraJournalVouchersSoapIn" />
+      <wsdl:output message="tns:metWSEstructuraJournalVouchersSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="metWSInsertarJournalVouchers">
+      <soap:operation soapAction="ITA.Diapi.WS/metWSInsertarJournalVouchers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="metWSEstructuraJournalVouchers">
+      <soap:operation soapAction="ITA.Diapi.WS/metWSEstructuraJournalVouchers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="metWSInsertarJournalVouchers">
+      <soap12:operation soapAction="ITA.Diapi.WS/metWSInsertarJournalVouchers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="metWSEstructuraJournalVouchers">
+      <soap12:operation soapAction="ITA.Diapi.WS/metWSEstructuraJournalVouchers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://192.168.10.15:8085/WS.Diapi/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://192.168.10.15:8085/WS.Diapi/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

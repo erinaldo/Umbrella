@@ -1,0 +1,151 @@
+D:\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\Aplicaciones windows\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+D:\Aplicaciones windows\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+D:\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+D:\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+D:\Dropbox\Documentos\Aplicaciones\AppAndroid\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+D:\Proyectos\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+D:\Proyectos\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+D:\Proyectos\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\Proyectos\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+D:\Proyectos\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+I:\Aplicaciones\Aplicaciones windows\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+I:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+E:\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+E:\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+E:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+E:\AppWindows\Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+E:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+E:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+E:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+C:\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+C:\AppWindows\Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+C:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+C:\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+D:\Aplicaciones\AppWindows\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+C:\AppWindows\C-Umbrella\umbDatos\bin\Debug\umbDatos.dll
+C:\AppWindows\C-Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+C:\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+C:\AppWindows\C-Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+C:\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.dll
+C:\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\bin\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\bin\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\C-Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-C\umbDatos\bin\Debug\umbDatos.dll
+C:\AppWindows\Umbrella-C\umbDatos\bin\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-C\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+C:\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.dll
+C:\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\obj\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\bin\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\bin\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-C\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+C:\AppWindows\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+C:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+C:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+C:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+C:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+D:\AplicacionesGitHub\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+C:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+I:\Aplicaciones GitHub\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+I:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+I:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+I:\Aplicaciones GitHub\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+D:\AppWindows\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+D:\AppWindows\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+D:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+D:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+D:\AppWindows\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+D:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+E:\OneDrive\Documentos\Desarrollos\Desarrollo en c#\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+D:\AppVisualStudio\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+D:\AppVisualStudio\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+D:\AppVisualStudio\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+D:\AppVisualStudio\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\AppVisualStudio\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+D:\AppVisualStudio\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+D:\AppVisualStudio\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+E:\Proyectos\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+E:\Proyectos\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+E:\Proyectos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+E:\Proyectos\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Proyectos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+E:\Proyectos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+E:\Proyectos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+E:\Desarrollos\Umbrella-VC\umbDatos\bin\Debug\umbDatos.dll
+E:\Desarrollos\Umbrella-VC\umbDatos\bin\Debug\umbDatos.pdb
+E:\Desarrollos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+E:\Desarrollos\Umbrella-VC\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Desarrollos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+E:\Desarrollos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.dll
+E:\Desarrollos\Umbrella-VC\umbDatos\obj\Debug\umbDatos.pdb
+D:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
+D:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
+D:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.dll
+D:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
