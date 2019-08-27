@@ -68,6 +68,8 @@
     <Compile Include="Entidades\EntCOM_CABGENCODBARRA.cs" />
     <Compile Include="Entidades\EntCOM_DETGENCODBARRA.cs" />
     <Compile Include="Entidades\EntCOM_ETIQUETA15X10.cs" />
+    <Compile Include="Entidades\EntETQ_NUTRICIONAL.cs" />
+    <Compile Include="Etiquetas\daoEtqNutricional.cs" />
     <Compile Include="Finanzas\clsFinCenCosto.cs" />
     <Compile Include="Finanzas\clsFinDocPreliminarCab.cs" />
     <Compile Include="Finanzas\clsFinDocPreliminarDet.cs" />
