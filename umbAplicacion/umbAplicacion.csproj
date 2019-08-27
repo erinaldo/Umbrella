@@ -1773,7 +1773,9 @@
   <ItemGroup>
     <None Include="Resources\ic_pegar.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Etiqueta nutricional.PNG" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>

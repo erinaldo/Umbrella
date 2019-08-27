@@ -21,7 +21,7 @@ namespace umbNegocio.Etiquetas
         public object[] metInsertar(Entidades.EntETQ_NUTRICIONAL objRegistro) {
             try {
                 csAccesoDatos.funIniciarSesion("conDBUmbrella");
-                int varCodigo = (int)csAccesoDatos.GDatos.funTraerValorEscalar("proEtq_NutricionalInsertar", objRegistro.EtnLabel1 /*Nombre del producto*/,
+                int varCodigo = int.Parse(csAccesoDatos.GDatos.funTraerValorEscalar("proEtq_NutricionalInsertar", objRegistro.EtnLabel1 /*Nombre del producto*/,
                                                                                                                                                                                             objRegistro.EtnLabel2 /*Información del producto*/,
                                                                                                                                                                                             objRegistro.EtnLabel3 /*Registro sanitario*/,
                                                                                                                                                                                             objRegistro.EtnLabel4 /*Peso*/,
@@ -54,7 +54,7 @@ namespace umbNegocio.Etiquetas
                                                                                                                                                                                             objRegistro.EtnLabel31 /*Proteina gramos*/,
                                                                                                                                                                                             objRegistro.EtnLabel32 /*Proteina porcentaje*/,
                                                                                                                                                                                             objRegistro.EtnLabel33 /*Leyenda 2 requiere cocción*/,
-                                                                                                                                                                                            clsVariablesGlobales.varCodUsuario);
+                                                                                                                                                                                            clsVariablesGlobales.varCodUsuario).ToString());
                 csAccesoDatos.proFinalizarSesion();
 
                 objResultado[0] = "ok";

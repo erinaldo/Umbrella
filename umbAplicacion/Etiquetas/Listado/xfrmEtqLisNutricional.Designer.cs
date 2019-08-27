@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xfrmEtqLisNutricional));
+            this.colEtnCodigo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colEtnLabel1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colEtnLabel4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colEtnLabel5 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grcListado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvListado)).BeginInit();
             this.panel1.SuspendLayout();
@@ -144,6 +148,11 @@
             this.grvListado.Appearance.ViewCaption.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.grvListado.Appearance.ViewCaption.Options.UseBackColor = true;
             this.grvListado.Appearance.ViewCaption.Options.UseFont = true;
+            this.grvListado.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colEtnCodigo,
+            this.colEtnLabel1,
+            this.colEtnLabel4,
+            this.colEtnLabel5});
             this.grvListado.OptionsBehavior.Editable = false;
             this.grvListado.OptionsDetail.EnableMasterViewMode = false;
             this.grvListado.OptionsFind.AlwaysVisible = true;
@@ -187,6 +196,46 @@
             this.btnConsultar.Appearance.Options.UseFont = true;
             this.btnConsultar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultar.ImageOptions.Image")));
             // 
+            // colEtnCodigo
+            // 
+            this.colEtnCodigo.Caption = "Código";
+            this.colEtnCodigo.FieldName = "EtnCodigo";
+            this.colEtnCodigo.Name = "colEtnCodigo";
+            this.colEtnCodigo.OptionsColumn.AllowEdit = false;
+            this.colEtnCodigo.Visible = true;
+            this.colEtnCodigo.VisibleIndex = 1;
+            // 
+            // colEtnLabel1
+            // 
+            this.colEtnLabel1.Caption = "Nombre";
+            this.colEtnLabel1.FieldName = "EtnLabel1";
+            this.colEtnLabel1.Name = "colEtnLabel1";
+            this.colEtnLabel1.OptionsColumn.AllowEdit = false;
+            this.colEtnLabel1.Visible = true;
+            this.colEtnLabel1.VisibleIndex = 2;
+            this.colEtnLabel1.Width = 225;
+            // 
+            // colEtnLabel4
+            // 
+            this.colEtnLabel4.AppearanceCell.Options.UseTextOptions = true;
+            this.colEtnLabel4.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.colEtnLabel4.Caption = "Peso";
+            this.colEtnLabel4.FieldName = "EtnLabel4";
+            this.colEtnLabel4.Name = "colEtnLabel4";
+            this.colEtnLabel4.OptionsColumn.AllowEdit = false;
+            this.colEtnLabel4.Visible = true;
+            this.colEtnLabel4.VisibleIndex = 3;
+            // 
+            // colEtnLabel5
+            // 
+            this.colEtnLabel5.Caption = "Código de barra";
+            this.colEtnLabel5.FieldName = "EtnLabel5";
+            this.colEtnLabel5.Name = "colEtnLabel5";
+            this.colEtnLabel5.OptionsColumn.AllowEdit = false;
+            this.colEtnLabel5.Visible = true;
+            this.colEtnLabel5.VisibleIndex = 4;
+            this.colEtnLabel5.Width = 99;
+            // 
             // xfrmEtqLisNutricional
             // 
             this.Appearance.Options.UseFont = true;
@@ -203,5 +252,10 @@
         }
 
         #endregion
+
+        private DevExpress.XtraGrid.Columns.GridColumn colEtnCodigo;
+        private DevExpress.XtraGrid.Columns.GridColumn colEtnLabel1;
+        private DevExpress.XtraGrid.Columns.GridColumn colEtnLabel4;
+        private DevExpress.XtraGrid.Columns.GridColumn colEtnLabel5;
     }
 }
