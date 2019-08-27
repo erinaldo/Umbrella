@@ -1098,14 +1098,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="umbAplicacion.exe" size="2561024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="umbAplicacion.exe" size="2573312">
       <assemblyIdentity name="umbAplicacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>RpVCEj6TEWGhJcQD0qwArZwQYTaPgJdtlJhAcFhiqoo=</dsig:DigestValue>
+        <dsig:DigestValue>FjQe8WxJSDiqeElP3H9wKnbdK7hVSTrXj3nXeAVV6yA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
