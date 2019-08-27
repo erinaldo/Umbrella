@@ -212,3 +212,14 @@ D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReferenc
 D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
 D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
 D:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
+E:\GitHub\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll.config
+E:\GitHub\Umbrella\umbNegocio\bin\Debug\umbNegocio.dll
+E:\GitHub\Umbrella\umbNegocio\bin\Debug\umbNegocio.pdb
+E:\GitHub\Umbrella\umbNegocio\bin\Debug\umbDatos.dll
+E:\GitHub\Umbrella\umbNegocio\bin\Debug\umbDatos.pdb
+E:\GitHub\Umbrella\umbNegocio\bin\Debug\umbDatos.xml
+E:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.csprojResolveAssemblyReference.cache
+E:\GitHub\Umbrella\umbNegocio\obj\Debug\Interop.SAPbobsCOM.dll
+E:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.csproj.ResolveComReference.cache
+E:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.dll
+E:\GitHub\Umbrella\umbNegocio\obj\Debug\umbNegocio.pdb
