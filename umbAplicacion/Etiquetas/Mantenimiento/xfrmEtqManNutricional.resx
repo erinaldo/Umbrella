@@ -176,7 +176,7 @@
         gg==
 </value>
   </data>
-  <data name="simpleButton1.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnVisualizar.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAABB9JREFUSEu9
         Vm1MW2UYJfGHif5bpjFLHHMY3Kab/JruI8PFaFRmNv9p9oVuIbYbg6BudXHAZFnchuIwJI24fqmFjhbY

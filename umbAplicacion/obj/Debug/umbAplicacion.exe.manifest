@@ -1098,14 +1098,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="umbAplicacion.exe" size="2708480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="umbAplicacion.exe" size="2769920">
       <assemblyIdentity name="umbAplicacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SBipMJu5nl7DviGvaxgChtaWqF8F/WyjYG2HQMs1gF4=</dsig:DigestValue>
+        <dsig:DigestValue>frfjV+DAgNTo5deUNbG/Cp6OnpOF5bHEF56W1cCTLdA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1117,19 +1117,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lgxdqvBaNVdxLLEj/ohm8EbBLNyQcY77WmpHU9LLanI=</dsig:DigestValue>
+        <dsig:DigestValue>7TIg9zligAm/UA/F9/yuKQWt07pbl70irlTaVykR9lA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="umbNegocio.dll" size="376320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="umbNegocio.dll" size="378368">
       <assemblyIdentity name="umbNegocio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>x5NkUKzurmLFrO8IwDumX44TWDlir4gBR5mvO/bl8DE=</dsig:DigestValue>
+        <dsig:DigestValue>wXIBAB/qezGnjaZRD7ILrw75bj8z8UfMFKqRLcZWuNE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

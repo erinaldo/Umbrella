@@ -65,6 +65,7 @@
     <Compile Include="Costos\clsCosHojHorizontal.cs" />
     <Compile Include="Costos\clsCosHojVertical.cs" />
     <Compile Include="Costos\clsCosNormaReparto.cs" />
+    <Compile Include="daoImpresion.cs" />
     <Compile Include="Entidades\EntCOM_CABGENCODBARRA.cs" />
     <Compile Include="Entidades\EntCOM_DETGENCODBARRA.cs" />
     <Compile Include="Entidades\EntCOM_ETIQUETA15X10.cs" />

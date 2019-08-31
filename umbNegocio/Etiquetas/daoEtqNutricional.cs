@@ -54,6 +54,13 @@ namespace umbNegocio.Etiquetas
                                                                                                                                                                                             objRegistro.EtnLabel31 /*Proteina gramos*/,
                                                                                                                                                                                             objRegistro.EtnLabel32 /*Proteina porcentaje*/,
                                                                                                                                                                                             objRegistro.EtnLabel33 /*Leyenda 2 requiere cocción*/,
+                                                                                                                                                                                            objRegistro.EtnSemaforo1 /*Descripcion del semáforo 1*/,
+                                                                                                                                                                                            objRegistro.EtnColor1 /*Color del semáforo 1*/,
+                                                                                                                                                                                            objRegistro.EtnSemaforo2 /*Descripcion del semáforo 2*/,
+                                                                                                                                                                                            objRegistro.EtnColor2 /*Color del semáforo 2*/,
+                                                                                                                                                                                            objRegistro.EtnSemaforo3 /*Descripcion del semáforo 3*/,
+                                                                                                                                                                                            objRegistro.EtnColor3 /*Color del semáforo 3*/,
+                                                                                                                                                                                            objRegistro.EtnIdProducto /*Código de SAP del producto*/,
                                                                                                                                                                                             clsVariablesGlobales.varCodUsuario).ToString());
                 csAccesoDatos.proFinalizarSesion();
 
@@ -105,6 +112,13 @@ namespace umbNegocio.Etiquetas
                                                                                                                                                                                                 objRegistro.EtnLabel31 /*Proteina gramos*/,
                                                                                                                                                                                                 objRegistro.EtnLabel32 /*Proteina porcentaje*/,
                                                                                                                                                                                                 objRegistro.EtnLabel33 /*Leyenda 2 requiere cocción*/,
+                                                                                                                                                                                                objRegistro.EtnSemaforo1 /*Descripcion del semáforo 1*/,
+                                                                                                                                                                                                objRegistro.EtnColor1 /*Color del semáforo 1*/,
+                                                                                                                                                                                                objRegistro.EtnSemaforo2 /*Descripcion del semáforo 2*/,
+                                                                                                                                                                                                objRegistro.EtnColor2 /*Color del semáforo 2*/,
+                                                                                                                                                                                                objRegistro.EtnSemaforo3 /*Descripcion del semáforo 3*/,
+                                                                                                                                                                                                objRegistro.EtnColor3 /*Color del semáforo 3*/,
+                                                                                                                                                                                                objRegistro.EtnIdProducto /*Código de SAP del producto*/,
                                                                                                                                                                                                 clsVariablesGlobales.varCodUsuario);
                 csAccesoDatos.proFinalizarSesion();
 
@@ -155,6 +169,47 @@ namespace umbNegocio.Etiquetas
                 List<Entidades.EntETQ_NUTRICIONAL> objListado = dtLista.ToListOf<Entidades.EntETQ_NUTRICIONAL>();
                 Entidades.EntETQ_NUTRICIONAL objCabecera = objListado.Count > 0 ? objListado[0] : null;
                 return objCabecera;
+            } catch (Exception ex) { throw new Exception(ex.Message); }
+        }
+        public DataTable metImprimirEtiqueta(Entidades.EntETQ_NUTRICIONAL objRegistro) {
+            try {
+                csAccesoDatos.funIniciarSesion("conDBUmbrella");
+                DataTable dtLista = csAccesoDatos.GDatos.funTraerDataTable("dbo.proEtq_NutricionalImpresion", objRegistro.EtnLabel1 /*Nombre del producto*/,
+                                                                                                                                                                                    objRegistro.EtnLabel2 /*Información del producto*/,
+                                                                                                                                                                                    objRegistro.EtnLabel3 /*Registro sanitario*/,
+                                                                                                                                                                                    objRegistro.EtnLabel4 /*Peso*/,
+                                                                                                                                                                                    objRegistro.EtnLabel5 /*Codigo de barras*/,
+                                                                                                                                                                                    objRegistro.EtnLabel6 /*Leyenda junto a la información nutricional*/,
+                                                                                                                                                                                    objRegistro.EtnLabel7 /*Tamaño por ración*/,
+                                                                                                                                                                                    objRegistro.EtnLabel8 /*Porciones por envase*/,
+                                                                                                                                                                                    objRegistro.EtnLabel9 /*Energía calorías*/,
+                                                                                                                                                                                    objRegistro.EtnLabel10 /*Energía calorías a la grasa*/,
+                                                                                                                                                                                    objRegistro.EtnLabel11 /*Grasa total gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel12 /*Grasa total porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel13 /*Acidos grasos saturados gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel14 /*Acidos grasos saturados porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel15 /*Acidos grasos trans gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel16 /*Acidos grasos trans porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel17 /*Acidos grasos mono insaturados gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel18 /*Acidos grasos mono insaturados porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel19 /*Acidos grasos poli insaturados gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel20 /*Acidos grasos poli insaturados porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel21 /*Colesterol gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel22 /*Colesterol porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel23 /*Sodio gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel24 /*Sodio porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel25 /*Carbohidratos totales gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel26 /*Carbohidratos totales porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel27 /*Fibra gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel28 /*Fibra porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel29 /*Azucar gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel30 /*Azucar porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel31 /*Proteina gramos*/,
+                                                                                                                                                                                    objRegistro.EtnLabel32 /*Proteina porcentaje*/,
+                                                                                                                                                                                    objRegistro.EtnLabel33 /*Leyenda 2 requiere cocción*/);
+                csAccesoDatos.proFinalizarSesion();
+
+                return dtLista;
             } catch (Exception ex) { throw new Exception(ex.Message); }
         }
     }

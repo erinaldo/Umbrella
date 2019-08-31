@@ -41,6 +41,13 @@ namespace umbNegocio.Entidades
         public String EtnLabel31 { get; set; } //Proteina gramos
         public String EtnLabel32 { get; set; } //Proteina porcentaje
         public String EtnLabel33 { get; set; } //Leyenda 2 requiere cocción
+        public String EtnSemaforo1 { get; set; } //Descripcion del semáforo 1
+        public String EtnColor1 { get; set; } //Color del semáforo 1
+        public String EtnSemaforo2 { get; set; } //Descripcion del semáforo 2
+        public String EtnColor2 { get; set; } //Color del semáforo 2
+        public String EtnSemaforo3 { get; set; } //Descripcion del semáforo 3
+        public String EtnColor3 { get; set; } //Color del semáforo 3
+        public String EtnIdProducto { get; set; } //Código de SAP del producto
         public String UsuCrea { get; set; } //Usuario creador del registro
         public DateTime UsuFechaCrea { get; set; } //Fecha y hora de creación
         public String UsuIpCrea { get; set; } //Ip de donde fue creado el registro

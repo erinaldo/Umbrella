@@ -2786,6 +2786,7 @@ E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.Seguridad.Mantenimiento
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.Seguridad.Mantenimiento.xfrmSegManFormulario.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.Seguridad.Mantenimiento.xfrmSegManMenu.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.Seguridad.Mantenimiento.xfrmSegManUsuario.resources
+E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.xfrmPreview.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.csproj.GenerateResource.Cache
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.exe.licenses
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.exe.manifest
