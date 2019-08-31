@@ -97,7 +97,7 @@ namespace umbAplicacion.Plantillas.Listado
             if (varCuantos.Equals(0)) { XtraMessageBox.Show("El usuario no tiene acceso para consultar el documento seleccionado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); varBanAcceso = false; }
         } //Operacion utilizada para consultar
         public virtual void proCerrar() { this.Close(); }
-        public virtual void proCopiar() {  }
+        public virtual void proCopiar() { varCodOperacion = 5; }
         
         public virtual void proExcel() 
         {

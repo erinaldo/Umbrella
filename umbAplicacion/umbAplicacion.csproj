@@ -70,6 +70,12 @@
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
@@ -248,6 +254,12 @@
     </Compile>
     <Compile Include="Costos\Mantenimiento\xfrmCosManNormaReparto.Designer.cs">
       <DependentUpon>xfrmCosManNormaReparto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etiquetas\Impresion\crtEtiquetaInformacionNutricional.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtEtiquetaInformacionNutricional.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Etiquetas\Listado\xfrmEtqLisNutricional.cs">
       <SubType>Form</SubType>
@@ -724,6 +736,12 @@
     <Compile Include="Seguridad\Mantenimiento\xfrmSegManUsuario.Designer.cs">
       <DependentUpon>xfrmSegManUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="xfrmPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xfrmPreview.Designer.cs">
+      <DependentUpon>xfrmPreview.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Compras\Impresion\crtEtiquetaCarnes.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>crtEtiquetaCarnes.cs</LastGenOutput>
@@ -792,6 +810,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Costos\Mantenimiento\xfrmCosManNormaReparto.resx">
       <DependentUpon>xfrmCosManNormaReparto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etiquetas\Impresion\crtEtiquetaInformacionNutricional.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtEtiquetaInformacionNutricional.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Etiquetas\Listado\xfrmEtqLisNutricional.resx">
       <DependentUpon>xfrmEtqLisNutricional.cs</DependentUpon>
@@ -1023,6 +1045,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Seguridad\Mantenimiento\xfrmSegManUsuario.resx">
       <DependentUpon>xfrmSegManUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xfrmPreview.resx">
+      <DependentUpon>xfrmPreview.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xfrmEtqManNutricional));
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression1 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression2 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule3 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression3 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule4 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule5 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression4 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule6 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression5 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule7 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression6 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule8 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue2 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             this.txtNombre = new DevExpress.XtraEditors.TextEdit();
             this.lblNombre = new DevExpress.XtraEditors.LabelControl();
             this.txtCodigo = new DevExpress.XtraEditors.TextEdit();
@@ -67,7 +67,15 @@
             this.txtLeyenda2 = new DevExpress.XtraEditors.TextEdit();
             this.lblLeyenda2 = new DevExpress.XtraEditors.LabelControl();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnVisualizar = new DevExpress.XtraEditors.SimpleButton();
+            this.lblSemaforo = new DevExpress.XtraEditors.LabelControl();
+            this.txtSemaforo1 = new DevExpress.XtraEditors.TextEdit();
+            this.lueSemaforo1 = new DevExpress.XtraEditors.LookUpEdit();
+            this.lueSemaforo2 = new DevExpress.XtraEditors.LookUpEdit();
+            this.txtSemaforo2 = new DevExpress.XtraEditors.TextEdit();
+            this.lueSemaforo3 = new DevExpress.XtraEditors.LookUpEdit();
+            this.txtSemaforo3 = new DevExpress.XtraEditors.TextEdit();
+            this.txtIdProducto = new DevExpress.XtraEditors.TextEdit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtNombre.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCodigo.Properties)).BeginInit();
@@ -82,6 +90,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.igvItemIngrediente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itxAbreviatura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtLeyenda2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSemaforo1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lueSemaforo1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lueSemaforo2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSemaforo2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lueSemaforo3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSemaforo3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIdProducto.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -98,18 +113,18 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.simpleButton1);
-            this.panel1.Location = new System.Drawing.Point(0, 400);
+            this.panel1.Controls.Add(this.btnVisualizar);
+            this.panel1.Location = new System.Drawing.Point(0, 424);
             this.panel1.Size = new System.Drawing.Size(1128, 46);
             this.panel1.Controls.SetChildIndex(this.btnGrabar, 0);
             this.panel1.Controls.SetChildIndex(this.btnCancelar, 0);
-            this.panel1.Controls.SetChildIndex(this.simpleButton1, 0);
+            this.panel1.Controls.SetChildIndex(this.btnVisualizar, 0);
             // 
             // txtNombre
             // 
             this.txtNombre.EditValue = "CHORIZO PAISA TIPO I GRANEL 12";
             this.txtNombre.EnterMoveNextControl = true;
-            this.txtNombre.Location = new System.Drawing.Point(177, 55);
+            this.txtNombre.Location = new System.Drawing.Point(177, 39);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Properties.Appearance.Options.UseFont = true;
@@ -129,7 +144,7 @@
             this.lblNombre.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblNombre.Appearance.Options.UseFont = true;
             this.lblNombre.Appearance.Options.UseForeColor = true;
-            this.lblNombre.Location = new System.Drawing.Point(22, 58);
+            this.lblNombre.Location = new System.Drawing.Point(22, 42);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(149, 15);
             this.lblNombre.TabIndex = 579;
@@ -140,7 +155,7 @@
             this.txtCodigo.EditValue = "0";
             this.txtCodigo.Enabled = false;
             this.txtCodigo.EnterMoveNextControl = true;
-            this.txtCodigo.Location = new System.Drawing.Point(465, 54);
+            this.txtCodigo.Location = new System.Drawing.Point(465, 16);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txtCodigo.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -155,6 +170,8 @@
             this.txtCodigo.Properties.ReadOnly = true;
             this.txtCodigo.Size = new System.Drawing.Size(79, 22);
             this.txtCodigo.TabIndex = 576;
+            this.txtCodigo.TabStop = false;
+            this.txtCodigo.Visible = false;
             // 
             // lblCodigo
             // 
@@ -162,7 +179,7 @@
             this.lblCodigo.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblCodigo.Appearance.Options.UseFont = true;
             this.lblCodigo.Appearance.Options.UseForeColor = true;
-            this.lblCodigo.Location = new System.Drawing.Point(422, 58);
+            this.lblCodigo.Location = new System.Drawing.Point(422, 42);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(37, 15);
             this.lblCodigo.TabIndex = 578;
@@ -174,7 +191,7 @@
             this.lblInformacion.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblInformacion.Appearance.Options.UseFont = true;
             this.lblInformacion.Appearance.Options.UseForeColor = true;
-            this.lblInformacion.Location = new System.Drawing.Point(22, 80);
+            this.lblInformacion.Location = new System.Drawing.Point(22, 64);
             this.lblInformacion.Name = "lblInformacion";
             this.lblInformacion.Size = new System.Drawing.Size(168, 15);
             this.lblInformacion.TabIndex = 581;
@@ -183,13 +200,13 @@
             // memInformacion
             // 
             this.memInformacion.EditValue = resources.GetString("memInformacion.EditValue");
-            this.memInformacion.Location = new System.Drawing.Point(22, 99);
+            this.memInformacion.Location = new System.Drawing.Point(22, 83);
             this.memInformacion.Name = "memInformacion";
             this.memInformacion.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memInformacion.Properties.Appearance.Options.UseFont = true;
             this.memInformacion.Properties.MaxLength = 650;
             this.memInformacion.Size = new System.Drawing.Size(522, 104);
-            this.memInformacion.TabIndex = 1;
+            this.memInformacion.TabIndex = 2;
             this.memInformacion.ToolTip = "Máximo 650 caracteres";
             this.memInformacion.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.memInformacion.ToolTipTitle = "Información";
@@ -199,13 +216,13 @@
             this.memRegistro.EditValue = "\'Reg .San. 9626-ALN-0416 SEGUN NTE INEN: 1338\' + chr(13) + \'CONSÉRVESE EN REFRIGE" +
     "RACIÓN / TIEMPO MÁXIMO DE CONSUMO 15 DÍAS\' + \'ABIERTO EL EMPAQUE, CONSUMIR TODO " +
     "EL CONTENIDO\'";
-            this.memRegistro.Location = new System.Drawing.Point(22, 226);
+            this.memRegistro.Location = new System.Drawing.Point(22, 210);
             this.memRegistro.Name = "memRegistro";
             this.memRegistro.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memRegistro.Properties.Appearance.Options.UseFont = true;
             this.memRegistro.Properties.MaxLength = 250;
             this.memRegistro.Size = new System.Drawing.Size(522, 49);
-            this.memRegistro.TabIndex = 2;
+            this.memRegistro.TabIndex = 3;
             this.memRegistro.ToolTip = "Máximo 250 caracteres";
             this.memRegistro.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.memRegistro.ToolTipTitle = "Información";
@@ -216,7 +233,7 @@
             this.lblRegistro.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblRegistro.Appearance.Options.UseFont = true;
             this.lblRegistro.Appearance.Options.UseForeColor = true;
-            this.lblRegistro.Location = new System.Drawing.Point(22, 207);
+            this.lblRegistro.Location = new System.Drawing.Point(22, 191);
             this.lblRegistro.Name = "lblRegistro";
             this.lblRegistro.Size = new System.Drawing.Size(130, 15);
             this.lblRegistro.TabIndex = 583;
@@ -227,13 +244,13 @@
             this.memLeyenda1.EditValue = "\'*Porcentaje de valores diarios basados en una dieta de 2000kcal. (8380kJ). Sus v" +
     "alores diarios pueden ser mayores o menores dependiendo de sus necesidades calór" +
     "icas.\'";
-            this.memLeyenda1.Location = new System.Drawing.Point(22, 299);
+            this.memLeyenda1.Location = new System.Drawing.Point(22, 283);
             this.memLeyenda1.Name = "memLeyenda1";
             this.memLeyenda1.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memLeyenda1.Properties.Appearance.Options.UseFont = true;
             this.memLeyenda1.Properties.MaxLength = 180;
             this.memLeyenda1.Size = new System.Drawing.Size(522, 35);
-            this.memLeyenda1.TabIndex = 3;
+            this.memLeyenda1.TabIndex = 4;
             this.memLeyenda1.ToolTip = "Máximo 180 caracteres";
             this.memLeyenda1.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.memLeyenda1.ToolTipTitle = "Información";
@@ -244,7 +261,7 @@
             this.lblLeyenda1.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblLeyenda1.Appearance.Options.UseFont = true;
             this.lblLeyenda1.Appearance.Options.UseForeColor = true;
-            this.lblLeyenda1.Location = new System.Drawing.Point(22, 280);
+            this.lblLeyenda1.Location = new System.Drawing.Point(22, 264);
             this.lblLeyenda1.Name = "lblLeyenda1";
             this.lblLeyenda1.Size = new System.Drawing.Size(96, 15);
             this.lblLeyenda1.TabIndex = 585;
@@ -254,7 +271,7 @@
             // 
             this.txtPeso.EditValue = "1.36 kg";
             this.txtPeso.EnterMoveNextControl = true;
-            this.txtPeso.Location = new System.Drawing.Point(161, 337);
+            this.txtPeso.Location = new System.Drawing.Point(161, 321);
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPeso.Properties.Appearance.Options.UseFont = true;
@@ -264,7 +281,7 @@
             this.txtPeso.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.txtPeso.Properties.MaxLength = 8;
             this.txtPeso.Size = new System.Drawing.Size(87, 23);
-            this.txtPeso.TabIndex = 4;
+            this.txtPeso.TabIndex = 5;
             this.txtPeso.ToolTip = "Máximo 8 caracteres";
             this.txtPeso.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.txtPeso.ToolTipTitle = "Información";
@@ -275,7 +292,7 @@
             this.lblPeso.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblPeso.Appearance.Options.UseFont = true;
             this.lblPeso.Appearance.Options.UseForeColor = true;
-            this.lblPeso.Location = new System.Drawing.Point(22, 340);
+            this.lblPeso.Location = new System.Drawing.Point(22, 324);
             this.lblPeso.Name = "lblPeso";
             this.lblPeso.Size = new System.Drawing.Size(133, 15);
             this.lblPeso.TabIndex = 588;
@@ -285,7 +302,7 @@
             // 
             this.txtCodBarra.EditValue = "7861153901544";
             this.txtCodBarra.EnterMoveNextControl = true;
-            this.txtCodBarra.Location = new System.Drawing.Point(412, 337);
+            this.txtCodBarra.Location = new System.Drawing.Point(412, 321);
             this.txtCodBarra.Name = "txtCodBarra";
             this.txtCodBarra.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodBarra.Properties.Appearance.Options.UseFont = true;
@@ -295,7 +312,7 @@
             this.txtCodBarra.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.txtCodBarra.Properties.MaxLength = 13;
             this.txtCodBarra.Size = new System.Drawing.Size(133, 23);
-            this.txtCodBarra.TabIndex = 5;
+            this.txtCodBarra.TabIndex = 6;
             this.txtCodBarra.ToolTip = "Máximo 13 caracteres";
             this.txtCodBarra.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.txtCodBarra.ToolTipTitle = "Información";
@@ -306,7 +323,7 @@
             this.lblCodBarra.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblCodBarra.Appearance.Options.UseFont = true;
             this.lblCodBarra.Appearance.Options.UseForeColor = true;
-            this.lblCodBarra.Location = new System.Drawing.Point(280, 340);
+            this.lblCodBarra.Location = new System.Drawing.Point(280, 324);
             this.lblCodBarra.Name = "lblCodBarra";
             this.lblCodBarra.Size = new System.Drawing.Size(126, 15);
             this.lblCodBarra.TabIndex = 590;
@@ -321,8 +338,8 @@
             this.grcListado.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.gluItem,
             this.itxAbreviatura});
-            this.grcListado.Size = new System.Drawing.Size(553, 370);
-            this.grcListado.TabIndex = 7;
+            this.grcListado.Size = new System.Drawing.Size(553, 398);
+            this.grcListado.TabIndex = 14;
             this.grcListado.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvListado});
             // 
@@ -442,46 +459,46 @@
             this.colEtnValorUndMedida,
             this.colEtnLabelPorcentaje,
             this.colEtnValorPorcentaje});
-            gridFormatRule1.ApplyToRow = true;
-            gridFormatRule1.Name = "Format0";
-            formatConditionRuleExpression1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            formatConditionRuleExpression1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            formatConditionRuleExpression1.Appearance.ForeColor = System.Drawing.Color.Navy;
-            formatConditionRuleExpression1.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression1.Appearance.Options.UseFont = true;
-            formatConditionRuleExpression1.Appearance.Options.UseForeColor = true;
-            formatConditionRuleExpression1.Expression = "[DetAbreviatura] = \'T\'  Or [DetAbreviatura] = \'TP\'";
-            gridFormatRule1.Rule = formatConditionRuleExpression1;
-            gridFormatRule2.ApplyToRow = true;
-            gridFormatRule2.Name = "Format1";
-            formatConditionRuleExpression2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression2.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            formatConditionRuleExpression2.Appearance.ForeColor = System.Drawing.Color.Maroon;
-            formatConditionRuleExpression2.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression2.Appearance.Options.UseFont = true;
-            formatConditionRuleExpression2.Appearance.Options.UseForeColor = true;
-            formatConditionRuleExpression2.Expression = "[DetAbreviatura] = \'V\'  Or [DetAbreviatura] = \'VP\'";
-            gridFormatRule2.Rule = formatConditionRuleExpression2;
-            gridFormatRule3.ApplyToRow = true;
-            gridFormatRule3.Name = "Format2";
-            formatConditionRuleExpression3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            formatConditionRuleExpression3.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F);
-            formatConditionRuleExpression3.Appearance.ForeColor = System.Drawing.Color.Black;
-            formatConditionRuleExpression3.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression3.Appearance.Options.UseFont = true;
-            formatConditionRuleExpression3.Appearance.Options.UseForeColor = true;
-            formatConditionRuleExpression3.Expression = "[DetAbreviatura] = \'C\'  Or [DetAbreviatura] = \'CP\'";
-            gridFormatRule3.Rule = formatConditionRuleExpression3;
-            gridFormatRule4.Name = "Format3";
-            formatConditionRuleValue1.Appearance.ForeColor = System.Drawing.Color.Red;
-            formatConditionRuleValue1.Appearance.Options.UseForeColor = true;
-            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue1.Value1 = "0";
-            gridFormatRule4.Rule = formatConditionRuleValue1;
-            this.grvListado.FormatRules.Add(gridFormatRule1);
-            this.grvListado.FormatRules.Add(gridFormatRule2);
-            this.grvListado.FormatRules.Add(gridFormatRule3);
-            this.grvListado.FormatRules.Add(gridFormatRule4);
+            gridFormatRule5.ApplyToRow = true;
+            gridFormatRule5.Name = "Format0";
+            formatConditionRuleExpression4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            formatConditionRuleExpression4.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            formatConditionRuleExpression4.Appearance.ForeColor = System.Drawing.Color.Navy;
+            formatConditionRuleExpression4.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression4.Appearance.Options.UseFont = true;
+            formatConditionRuleExpression4.Appearance.Options.UseForeColor = true;
+            formatConditionRuleExpression4.Expression = "[DetAbreviatura] = \'T\'  Or [DetAbreviatura] = \'TP\'";
+            gridFormatRule5.Rule = formatConditionRuleExpression4;
+            gridFormatRule6.ApplyToRow = true;
+            gridFormatRule6.Name = "Format1";
+            formatConditionRuleExpression5.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression5.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            formatConditionRuleExpression5.Appearance.ForeColor = System.Drawing.Color.Maroon;
+            formatConditionRuleExpression5.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression5.Appearance.Options.UseFont = true;
+            formatConditionRuleExpression5.Appearance.Options.UseForeColor = true;
+            formatConditionRuleExpression5.Expression = "[DetAbreviatura] = \'V\'  Or [DetAbreviatura] = \'VP\'";
+            gridFormatRule6.Rule = formatConditionRuleExpression5;
+            gridFormatRule7.ApplyToRow = true;
+            gridFormatRule7.Name = "Format2";
+            formatConditionRuleExpression6.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            formatConditionRuleExpression6.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F);
+            formatConditionRuleExpression6.Appearance.ForeColor = System.Drawing.Color.Black;
+            formatConditionRuleExpression6.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression6.Appearance.Options.UseFont = true;
+            formatConditionRuleExpression6.Appearance.Options.UseForeColor = true;
+            formatConditionRuleExpression6.Expression = "[DetAbreviatura] = \'C\'  Or [DetAbreviatura] = \'CP\'";
+            gridFormatRule7.Rule = formatConditionRuleExpression6;
+            gridFormatRule8.Name = "Format3";
+            formatConditionRuleValue2.Appearance.ForeColor = System.Drawing.Color.Red;
+            formatConditionRuleValue2.Appearance.Options.UseForeColor = true;
+            formatConditionRuleValue2.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue2.Value1 = "0";
+            gridFormatRule8.Rule = formatConditionRuleValue2;
+            this.grvListado.FormatRules.Add(gridFormatRule5);
+            this.grvListado.FormatRules.Add(gridFormatRule6);
+            this.grvListado.FormatRules.Add(gridFormatRule7);
+            this.grvListado.FormatRules.Add(gridFormatRule8);
             this.grvListado.GridControl = this.grcListado;
             this.grvListado.Name = "grvListado";
             this.grvListado.OptionsCustomization.AllowColumnMoving = false;
@@ -761,7 +778,7 @@
             // 
             this.txtLeyenda2.EditValue = "Requiere cocción";
             this.txtLeyenda2.EnterMoveNextControl = true;
-            this.txtLeyenda2.Location = new System.Drawing.Point(161, 361);
+            this.txtLeyenda2.Location = new System.Drawing.Point(161, 345);
             this.txtLeyenda2.Name = "txtLeyenda2";
             this.txtLeyenda2.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLeyenda2.Properties.Appearance.Options.UseFont = true;
@@ -769,7 +786,7 @@
             this.txtLeyenda2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.txtLeyenda2.Properties.MaxLength = 20;
             this.txtLeyenda2.Size = new System.Drawing.Size(384, 23);
-            this.txtLeyenda2.TabIndex = 6;
+            this.txtLeyenda2.TabIndex = 7;
             this.txtLeyenda2.ToolTip = "Máximo 20 caracteres";
             this.txtLeyenda2.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.txtLeyenda2.ToolTipTitle = "Información";
@@ -780,7 +797,7 @@
             this.lblLeyenda2.Appearance.ForeColor = System.Drawing.Color.Black;
             this.lblLeyenda2.Appearance.Options.UseFont = true;
             this.lblLeyenda2.Appearance.Options.UseForeColor = true;
-            this.lblLeyenda2.Location = new System.Drawing.Point(22, 364);
+            this.lblLeyenda2.Location = new System.Drawing.Point(22, 348);
             this.lblLeyenda2.Name = "lblLeyenda2";
             this.lblLeyenda2.Size = new System.Drawing.Size(102, 15);
             this.lblLeyenda2.TabIndex = 593;
@@ -791,23 +808,193 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblTitulo.Location = new System.Drawing.Point(18, 23);
+            this.lblTitulo.Location = new System.Drawing.Point(18, 15);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(181, 23);
             this.lblTitulo.TabIndex = 594;
             this.lblTitulo.Text = "Etiqueta Nutricional";
             // 
-            // simpleButton1
+            // btnVisualizar
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.ImageOptions.SvgImageSize = new System.Drawing.Size(32, 32);
-            this.simpleButton1.Location = new System.Drawing.Point(207, 6);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(94, 28);
-            this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "&Visualizar";
+            this.btnVisualizar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVisualizar.Appearance.Options.UseFont = true;
+            this.btnVisualizar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnVisualizar.ImageOptions.Image")));
+            this.btnVisualizar.ImageOptions.SvgImageSize = new System.Drawing.Size(32, 32);
+            this.btnVisualizar.Location = new System.Drawing.Point(207, 6);
+            this.btnVisualizar.Name = "btnVisualizar";
+            this.btnVisualizar.Size = new System.Drawing.Size(94, 28);
+            this.btnVisualizar.TabIndex = 2;
+            this.btnVisualizar.Text = "&Visualizar";
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
+            // 
+            // lblSemaforo
+            // 
+            this.lblSemaforo.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSemaforo.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblSemaforo.Appearance.Options.UseFont = true;
+            this.lblSemaforo.Appearance.Options.UseForeColor = true;
+            this.lblSemaforo.Location = new System.Drawing.Point(22, 369);
+            this.lblSemaforo.Name = "lblSemaforo";
+            this.lblSemaforo.Size = new System.Drawing.Size(48, 15);
+            this.lblSemaforo.TabIndex = 595;
+            this.lblSemaforo.Text = "Semáforo:";
+            // 
+            // txtSemaforo1
+            // 
+            this.txtSemaforo1.EditValue = "GRASA";
+            this.txtSemaforo1.EnterMoveNextControl = true;
+            this.txtSemaforo1.Location = new System.Drawing.Point(22, 390);
+            this.txtSemaforo1.Name = "txtSemaforo1";
+            this.txtSemaforo1.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSemaforo1.Properties.Appearance.Options.UseFont = true;
+            this.txtSemaforo1.Properties.AutoHeight = false;
+            this.txtSemaforo1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.txtSemaforo1.Properties.MaxLength = 8;
+            this.txtSemaforo1.Size = new System.Drawing.Size(87, 23);
+            this.txtSemaforo1.TabIndex = 8;
+            this.txtSemaforo1.ToolTip = "Máximo 8 caracteres";
+            this.txtSemaforo1.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.txtSemaforo1.ToolTipTitle = "Información";
+            // 
+            // lueSemaforo1
+            // 
+            this.lueSemaforo1.Location = new System.Drawing.Point(109, 390);
+            this.lueSemaforo1.Name = "lueSemaforo1";
+            this.lueSemaforo1.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lueSemaforo1.Properties.Appearance.Options.UseFont = true;
+            this.lueSemaforo1.Properties.AppearanceDisabled.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo1.Properties.AppearanceDisabled.Options.UseFont = true;
+            this.lueSemaforo1.Properties.AppearanceDropDown.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo1.Properties.AppearanceDropDown.Options.UseFont = true;
+            this.lueSemaforo1.Properties.AppearanceDropDownHeader.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo1.Properties.AppearanceDropDownHeader.Options.UseFont = true;
+            this.lueSemaforo1.Properties.AppearanceFocused.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo1.Properties.AppearanceFocused.Options.UseFont = true;
+            this.lueSemaforo1.Properties.AppearanceReadOnly.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo1.Properties.AppearanceReadOnly.Options.UseFont = true;
+            this.lueSemaforo1.Properties.AutoHeight = false;
+            this.lueSemaforo1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lueSemaforo1.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lueSemaforo1.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ColCodigo", "Código"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ColNombre", "Nombre", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
+            this.lueSemaforo1.Properties.DisplayMember = "ColCodigo";
+            this.lueSemaforo1.Properties.NullText = "";
+            this.lueSemaforo1.Properties.ValueMember = "ColCodigo";
+            this.lueSemaforo1.Size = new System.Drawing.Size(43, 22);
+            this.lueSemaforo1.TabIndex = 9;
+            this.lueSemaforo1.EditValueChanged += new System.EventHandler(this.lueSemaforo1_EditValueChanged);
+            // 
+            // lueSemaforo2
+            // 
+            this.lueSemaforo2.Location = new System.Drawing.Point(254, 390);
+            this.lueSemaforo2.Name = "lueSemaforo2";
+            this.lueSemaforo2.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lueSemaforo2.Properties.Appearance.Options.UseFont = true;
+            this.lueSemaforo2.Properties.AppearanceDisabled.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo2.Properties.AppearanceDisabled.Options.UseFont = true;
+            this.lueSemaforo2.Properties.AppearanceDropDown.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo2.Properties.AppearanceDropDown.Options.UseFont = true;
+            this.lueSemaforo2.Properties.AppearanceDropDownHeader.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo2.Properties.AppearanceDropDownHeader.Options.UseFont = true;
+            this.lueSemaforo2.Properties.AppearanceFocused.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo2.Properties.AppearanceFocused.Options.UseFont = true;
+            this.lueSemaforo2.Properties.AppearanceReadOnly.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo2.Properties.AppearanceReadOnly.Options.UseFont = true;
+            this.lueSemaforo2.Properties.AutoHeight = false;
+            this.lueSemaforo2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lueSemaforo2.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lueSemaforo2.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ColCodigo", "Código"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ColNombre", "Nombre", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
+            this.lueSemaforo2.Properties.DisplayMember = "ColCodigo";
+            this.lueSemaforo2.Properties.NullText = "";
+            this.lueSemaforo2.Properties.ValueMember = "ColCodigo";
+            this.lueSemaforo2.Size = new System.Drawing.Size(43, 22);
+            this.lueSemaforo2.TabIndex = 11;
+            this.lueSemaforo2.EditValueChanged += new System.EventHandler(this.lueSemaforo2_EditValueChanged);
+            // 
+            // txtSemaforo2
+            // 
+            this.txtSemaforo2.EditValue = "SAL";
+            this.txtSemaforo2.EnterMoveNextControl = true;
+            this.txtSemaforo2.Location = new System.Drawing.Point(167, 390);
+            this.txtSemaforo2.Name = "txtSemaforo2";
+            this.txtSemaforo2.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSemaforo2.Properties.Appearance.Options.UseFont = true;
+            this.txtSemaforo2.Properties.AutoHeight = false;
+            this.txtSemaforo2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.txtSemaforo2.Properties.MaxLength = 8;
+            this.txtSemaforo2.Size = new System.Drawing.Size(87, 23);
+            this.txtSemaforo2.TabIndex = 10;
+            this.txtSemaforo2.ToolTip = "Máximo 8 caracteres";
+            this.txtSemaforo2.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.txtSemaforo2.ToolTipTitle = "Información";
+            // 
+            // lueSemaforo3
+            // 
+            this.lueSemaforo3.Location = new System.Drawing.Point(400, 390);
+            this.lueSemaforo3.Name = "lueSemaforo3";
+            this.lueSemaforo3.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lueSemaforo3.Properties.Appearance.Options.UseFont = true;
+            this.lueSemaforo3.Properties.AppearanceDisabled.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo3.Properties.AppearanceDisabled.Options.UseFont = true;
+            this.lueSemaforo3.Properties.AppearanceDropDown.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo3.Properties.AppearanceDropDown.Options.UseFont = true;
+            this.lueSemaforo3.Properties.AppearanceDropDownHeader.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo3.Properties.AppearanceDropDownHeader.Options.UseFont = true;
+            this.lueSemaforo3.Properties.AppearanceFocused.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo3.Properties.AppearanceFocused.Options.UseFont = true;
+            this.lueSemaforo3.Properties.AppearanceReadOnly.Font = new System.Drawing.Font("Times New Roman", 9F);
+            this.lueSemaforo3.Properties.AppearanceReadOnly.Options.UseFont = true;
+            this.lueSemaforo3.Properties.AutoHeight = false;
+            this.lueSemaforo3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lueSemaforo3.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lueSemaforo3.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ColCodigo", "Código"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ColNombre", "Nombre", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
+            this.lueSemaforo3.Properties.DisplayMember = "ColCodigo";
+            this.lueSemaforo3.Properties.NullText = "";
+            this.lueSemaforo3.Properties.ValueMember = "ColCodigo";
+            this.lueSemaforo3.Size = new System.Drawing.Size(43, 22);
+            this.lueSemaforo3.TabIndex = 13;
+            this.lueSemaforo3.EditValueChanged += new System.EventHandler(this.lueSemaforo3_EditValueChanged);
+            // 
+            // txtSemaforo3
+            // 
+            this.txtSemaforo3.EditValue = "AZUCAR";
+            this.txtSemaforo3.EnterMoveNextControl = true;
+            this.txtSemaforo3.Location = new System.Drawing.Point(313, 390);
+            this.txtSemaforo3.Name = "txtSemaforo3";
+            this.txtSemaforo3.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSemaforo3.Properties.Appearance.Options.UseFont = true;
+            this.txtSemaforo3.Properties.AutoHeight = false;
+            this.txtSemaforo3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.txtSemaforo3.Properties.MaxLength = 8;
+            this.txtSemaforo3.Size = new System.Drawing.Size(87, 23);
+            this.txtSemaforo3.TabIndex = 12;
+            this.txtSemaforo3.ToolTip = "Máximo 8 caracteres";
+            this.txtSemaforo3.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.txtSemaforo3.ToolTipTitle = "Información";
+            // 
+            // txtIdProducto
+            // 
+            this.txtIdProducto.EditValue = "40103006";
+            this.txtIdProducto.EnterMoveNextControl = true;
+            this.txtIdProducto.Location = new System.Drawing.Point(465, 38);
+            this.txtIdProducto.Name = "txtIdProducto";
+            this.txtIdProducto.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txtIdProducto.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdProducto.Properties.Appearance.Options.UseBackColor = true;
+            this.txtIdProducto.Properties.Appearance.Options.UseFont = true;
+            this.txtIdProducto.Properties.AutoHeight = false;
+            this.txtIdProducto.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.txtIdProducto.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtIdProducto.Size = new System.Drawing.Size(79, 22);
+            this.txtIdProducto.TabIndex = 1;
             // 
             // xfrmEtqManNutricional
             // 
@@ -815,7 +1002,15 @@
             this.Appearance.Options.UseBackColor = true;
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.ClientSize = new System.Drawing.Size(1128, 446);
+            this.ClientSize = new System.Drawing.Size(1128, 470);
+            this.Controls.Add(this.txtIdProducto);
+            this.Controls.Add(this.lueSemaforo3);
+            this.Controls.Add(this.txtSemaforo3);
+            this.Controls.Add(this.lueSemaforo2);
+            this.Controls.Add(this.txtSemaforo2);
+            this.Controls.Add(this.lueSemaforo1);
+            this.Controls.Add(this.txtSemaforo1);
+            this.Controls.Add(this.lblSemaforo);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.txtLeyenda2);
             this.Controls.Add(this.lblLeyenda2);
@@ -854,6 +1049,14 @@
             this.Controls.SetChildIndex(this.lblLeyenda2, 0);
             this.Controls.SetChildIndex(this.txtLeyenda2, 0);
             this.Controls.SetChildIndex(this.lblTitulo, 0);
+            this.Controls.SetChildIndex(this.lblSemaforo, 0);
+            this.Controls.SetChildIndex(this.txtSemaforo1, 0);
+            this.Controls.SetChildIndex(this.lueSemaforo1, 0);
+            this.Controls.SetChildIndex(this.txtSemaforo2, 0);
+            this.Controls.SetChildIndex(this.lueSemaforo2, 0);
+            this.Controls.SetChildIndex(this.txtSemaforo3, 0);
+            this.Controls.SetChildIndex(this.lueSemaforo3, 0);
+            this.Controls.SetChildIndex(this.txtIdProducto, 0);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtNombre.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCodigo.Properties)).EndInit();
@@ -868,6 +1071,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.igvItemIngrediente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itxAbreviatura)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtLeyenda2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSemaforo1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lueSemaforo1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lueSemaforo2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSemaforo2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lueSemaforo3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSemaforo3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIdProducto.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -905,6 +1115,14 @@
         private DevExpress.XtraEditors.TextEdit txtLeyenda2;
         private DevExpress.XtraEditors.LabelControl lblLeyenda2;
         private System.Windows.Forms.Label lblTitulo;
-        public DevExpress.XtraEditors.SimpleButton simpleButton1;
+        public DevExpress.XtraEditors.SimpleButton btnVisualizar;
+        private DevExpress.XtraEditors.LabelControl lblSemaforo;
+        private DevExpress.XtraEditors.TextEdit txtSemaforo1;
+        private DevExpress.XtraEditors.LookUpEdit lueSemaforo1;
+        private DevExpress.XtraEditors.LookUpEdit lueSemaforo2;
+        private DevExpress.XtraEditors.TextEdit txtSemaforo2;
+        private DevExpress.XtraEditors.LookUpEdit lueSemaforo3;
+        private DevExpress.XtraEditors.TextEdit txtSemaforo3;
+        private DevExpress.XtraEditors.TextEdit txtIdProducto;
     }
 }

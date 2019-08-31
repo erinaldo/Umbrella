@@ -151,8 +151,8 @@ D:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.dll
 D:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
 E:\GitHub\Umbrella\umbDatos\bin\Debug\umbDatos.dll
 E:\GitHub\Umbrella\umbDatos\bin\Debug\umbDatos.pdb
-E:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache
 E:\GitHub\Umbrella\umbDatos\obj\Debug\Interop.SAPbobsCOM.dll
 E:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.csproj.ResolveComReference.cache
 E:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.dll
 E:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.pdb
+E:\GitHub\Umbrella\umbDatos\obj\Debug\umbDatos.csprojResolveAssemblyReference.cache

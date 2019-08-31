@@ -64,5 +64,96 @@ namespace umbAplicacion.Etiquetas.Listado
                 this.grcListado.DataSource = daoEtqNutricional.getInstance().metListar();
             } catch (Exception ex) { clsMensajesSistema.metMsgError(ex.Message); }
         }
+        public override void proEliminar() {
+            varCodDocumento = 1;
+            base.proEliminar();
+            try {
+                int varRegistro = 0;
+                Boolean varBanEliminacion = false;
+                //Verificamos si selecciono una sola fila
+                if (grvListado.GetSelectedRows().Length.Equals(0)) {
+                    //Recuperamos el id del registro seleccionado
+                    varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(this.grvListado.FocusedRowHandle)).EtnCodigo;
+                    //Llamamos al metodo para eliminar el registro
+                    if (clsMensajesSistema.metMsgPregunta("Esta seguro de eliminar el registro seleccionado") == DialogResult.Yes) {
+                        daoEtqNutricional.getInstance().metEliminar(varRegistro);
+                        varBanEliminacion = true;
+                    }
+                } else {
+                    foreach (int varPosicion in grvListado.GetSelectedRows()) {
+                        //Recuperamos el id del registro seleccionado
+                        varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(varPosicion)).EtnCodigo;
+                        //Llamamos al metodo para eliminar el registro
+                        if (clsMensajesSistema.metMsgPregunta("Esta seguro de eliminar el registro seleccionado") == DialogResult.Yes) {
+                            daoEtqNutricional.getInstance().metEliminar(varRegistro);
+                            varBanEliminacion = true;
+                        }
+                    }
+                }
+                if (varBanEliminacion) {
+                    clsMensajesSistema.metMsgInformativo(clsMensajesSistema.msgEliminar);
+                    //Llenamos el listado 
+                    this.grcListado.DataSource = daoEtqNutricional.getInstance().metListar();
+                }
+            } catch (Exception ex) { clsMensajesSistema.metMsgError(ex.Message); }
+        }
+        public override void proConsultar() {
+            varCodDocumento = 1;
+            base.proConsultar();
+            try {
+                int varRegistro = 0;
+                //Verificamos si selecciono una sola fila
+                if (grvListado.GetSelectedRows().Length.Equals(0)) {
+                    //Recuperamos el id del registro seleccionado
+                    varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(this.grvListado.FocusedRowHandle)).EtnCodigo;
+                    //Llamamos al mantenimiendo de etiquetas nutricionales opcion de modificar
+                    xfrmEtqManNutricional objFormulario = new xfrmEtqManNutricional(varCodFormulario, varCodOperacion, varRegistro);
+                    objFormulario.ShowDialog();
+                } else {
+                    foreach (int varPosicion in grvListado.GetSelectedRows()) {
+                        //Recuperamos el id del registro seleccionado
+                        varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(varPosicion)).EtnCodigo;
+                        //Llamamos al mantenimiendo de etiquetas nutricionales opcion de modificar
+                        xfrmEtqManNutricional objFormulario = new xfrmEtqManNutricional(varCodFormulario, varCodOperacion, varRegistro);
+                        objFormulario.ShowDialog();
+                    }
+                }
+                //Llenamos el listado de las etiquetas nutricionales
+                this.grcListado.DataSource = daoEtqNutricional.getInstance().metListar();
+            } catch (Exception ex) { clsMensajesSistema.metMsgError(ex.Message); }
+        }
+        public override void proCopiar() {
+            base.proCopiar();
+            try {
+                int varRegistro = 0;
+                //Verificamos si selecciono una sola fila
+                if (grvListado.GetSelectedRows().Length.Equals(0)) {
+                    //Recuperamos el id del registro seleccionado
+                    varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(this.grvListado.FocusedRowHandle)).EtnCodigo;
+                    //Llamamos al mantenimiendo de etiquetas nutricionales opcion de modificar
+                    xfrmEtqManNutricional objFormulario = new xfrmEtqManNutricional(varCodFormulario, varCodOperacion, varRegistro);
+                    objFormulario.ShowDialog();
+                } else {
+                    foreach (int varPosicion in grvListado.GetSelectedRows()) {
+                        //Recuperamos el id del registro seleccionado
+                        varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(varPosicion)).EtnCodigo;
+                        //Llamamos al mantenimiendo de etiquetas nutricionales opcion de modificar
+                        xfrmEtqManNutricional objFormulario = new xfrmEtqManNutricional(varCodFormulario, varCodOperacion, varRegistro);
+                        objFormulario.ShowDialog();
+                    }
+                }
+                //Llenamos el listado de las etiquetas nutricionales
+                this.grcListado.DataSource = daoEtqNutricional.getInstance().metListar();
+            }
+            catch (Exception ex) { clsMensajesSistema.metMsgError(ex.Message); }
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e) {
+            try {
+                int varRegistro = ((EntETQ_NUTRICIONAL)this.grvListado.GetRow(this.grvListado.FocusedRowHandle)).EtnCodigo;
+                EntETQ_NUTRICIONAL objRegistro = daoEtqNutricional.getInstance().metConsultar(varRegistro);
+                new xfrmPreview(objRegistro).ShowDialog(this);
+            } catch (Exception ex) { clsMensajesSistema.metMsgError(ex.Message); }
+        }
     }
 }
