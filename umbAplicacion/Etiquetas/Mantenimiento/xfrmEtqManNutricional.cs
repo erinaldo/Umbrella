@@ -28,7 +28,6 @@ namespace umbAplicacion.Etiquetas.Mantenimiento
         private void proIniciarCampos() {
             //Enceramos los campos
             this.txtCodigo.Text = "0";
-            /*
             this.txtIdProducto.Text = "";
             this.txtNombre.Text = "";
             this.memInformacion.Text = "";
@@ -43,7 +42,7 @@ namespace umbAplicacion.Etiquetas.Mantenimiento
             this.lueSemaforo1.ItemIndex = 0;
             this.lueSemaforo2.ItemIndex = 0;
             this.lueSemaforo3.ItemIndex = 0;
-            */
+            
             //Inicializamos la grilla
             this.proDtTablaNutricional();
             //Creamos las filas de la tabla nutricional

@@ -81,6 +81,8 @@
     <Compile Include="General\clsGenParametros.cs" />
     <Compile Include="GestionBancos\clsGbaExtBancarioCab.cs" />
     <Compile Include="GestionBancos\clsGbaExtBancarioDet.cs" />
+    <Compile Include="GestionBancos\daoPagosEfectuados.cs" />
+    <Compile Include="GestionBancos\entOVPM.cs" />
     <Compile Include="Granja\clsGraCstAcumulado.cs" />
     <Compile Include="Granja\clsGraAnimal.cs">
       <SubType>Code</SubType>

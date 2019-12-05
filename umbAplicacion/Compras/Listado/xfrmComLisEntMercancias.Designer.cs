@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xfrmComLisEntMercancias));
             this.btnImprimir = new DevExpress.XtraEditors.SimpleButton();
             this.impDocumento = new System.Drawing.Printing.PrintDocument();
             this.btnEnviarSAP = new DevExpress.XtraEditors.SimpleButton();
@@ -185,27 +186,32 @@
             // 
             this.btnNuevo.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevo.Appearance.Options.UseFont = true;
+            this.btnNuevo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.ImageOptions.Image")));
             // 
             // btnEliminar
             // 
             this.btnEliminar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Appearance.Options.UseFont = true;
+            this.btnEliminar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.ImageOptions.Image")));
             // 
             // btnModificar
             // 
             this.btnModificar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.Appearance.Options.UseFont = true;
+            this.btnModificar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.ImageOptions.Image")));
             // 
             // btnCerrar
             // 
             this.btnCerrar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.Appearance.Options.UseFont = true;
+            this.btnCerrar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.ImageOptions.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(835, 6);
             // 
             // btnConsultar
             // 
             this.btnConsultar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultar.Appearance.Options.UseFont = true;
+            this.btnConsultar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultar.ImageOptions.Image")));
             this.btnConsultar.Location = new System.Drawing.Point(735, 6);
             // 
             // panel1
@@ -227,7 +233,7 @@
             this.btnImprimir.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimir.Appearance.Options.UseFont = true;
             this.btnImprimir.Enabled = false;
-            this.btnImprimir.Image = global::umbAplicacion.Properties.Resources.imgImprimir16;
+            this.btnImprimir.ImageOptions.Image = global::umbAplicacion.Properties.Resources.imgImprimir16;
             this.btnImprimir.Location = new System.Drawing.Point(302, 11);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(93, 26);
@@ -244,7 +250,7 @@
             this.btnEnviarSAP.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarSAP.Appearance.Options.UseFont = true;
             this.btnEnviarSAP.Enabled = false;
-            this.btnEnviarSAP.Image = global::umbAplicacion.Properties.Resources.imgSAP16;
+            this.btnEnviarSAP.ImageOptions.Image = global::umbAplicacion.Properties.Resources.imgSAP16;
             this.btnEnviarSAP.Location = new System.Drawing.Point(401, 11);
             this.btnEnviarSAP.Name = "btnEnviarSAP";
             this.btnEnviarSAP.Size = new System.Drawing.Size(93, 26);

@@ -23,6 +23,7 @@ namespace umbNegocio.Logistica
                 if (entTabla.AtrCabValor.Equals(0) && entTabla.AtrCabAgrupado) throw new Exception("Debe ingresar un valor mayor que cero");
                 DataTable dtDetalle = new DataTable();
                 dtDetalle = entTabla.AtrDetalle.ToDataTable<clsLogDetGuiaValorada>();
+                dtDetalle.Columns.Remove("AtrDetZona");
                 csAccesoDatos.GDatos.funTraerValorEscalar("proLog_GuiaValoradaInsertar", entTabla.AtrCabFecha, entTabla.AtrCabValor, entTabla.AtrCabAgrupado, entTabla.AtrCabRuta.AtrRguCodigo, dtDetalle, clsVariablesGlobales.varCodUsuario);
                 return "Ok";
             }
@@ -60,7 +61,7 @@ namespace umbNegocio.Logistica
                     objGuiaValorada.AtrCabGuias = dtRegistro.Rows[0]["CabGuias"].ToString();
                     objGuiaValorada.AtrCabRuta = daoLogRutGuia.getInstance().metListar(int.Parse(dtRegistro.Rows[0]["RguCodigo"].ToString()));
 
-                    string varSqlDetalle = string.Format("Select DetSecuencia, DetCabGuia, DocNombre, CabNumero, b.CabFecha, ChfNombre, AyuNombre, TrnPlaca   " +
+                    string varSqlDetalle = string.Format("Select DetSecuencia, DetCabGuia, DocNombre, CabNumero, b.CabFecha, ChfNombre, AyuNombre, TrnPlaca, 0 as Zona   " +
                                                                                "From LOG_DETGUIAVALORADA a inner join LOG_CABGUIAREMISION b on a.DetCabGuia = b.CabCodigo inner join SEG_DOCUMENTO c on b.DocCodigo = c.DocCodigo " +
                                                                                "Where a.CabCodigo = {0}", varId);
                     DataTable dtRegistroDetalle = funConsulta(varSqlDetalle, -1);
@@ -90,7 +91,7 @@ namespace umbNegocio.Logistica
                     objGuiaValorada.AtrCabGuias = drFilaCabecera["CabGuias"].ToString();
                     objGuiaValorada.AtrCabRuta = daoLogRutGuia.getInstance().metListar(int.Parse(drFilaCabecera["RguCodigo"].ToString()));
 
-                    string varSqlDetalle = string.Format("Select DetSecuencia, DetCabGuia, DocNombre, CabNumero, b.CabFecha, ChfNombre, AyuNombre, TrnPlaca   " +
+                    string varSqlDetalle = string.Format("Select DetSecuencia, DetCabGuia, DocNombre, CabNumero, b.CabFecha, ChfNombre, AyuNombre, TrnPlaca, 0 as Zona   " +
                                                                                "From LOG_DETGUIAVALORADA a inner join LOG_CABGUIAREMISION b on a.DetCabGuia = b.CabCodigo inner join SEG_DOCUMENTO c on b.DocCodigo = c.DocCodigo " +
                                                                                "Where a.CabCodigo = {0}", objGuiaValorada.AtrCabCodigo);
                     DataTable dtRegistroDetalle = funConsulta(varSqlDetalle, -1);
@@ -127,8 +128,9 @@ namespace umbNegocio.Logistica
             String varAtrDetChfNombre = drFila["ChfNombre"].ToString();
             String varAtrDetAyuNombre = drFila["AyuNombre"].ToString();
             String varAtrDetTrnPlaca = drFila["TrnPlaca"].ToString();
-            
-            return new clsLogDetGuiaValorada(varAtrDetSecuencia, varAtrDetCabGuia, varAtrDetDocNombre, varAtrDetCabNumero, varAtrDetCabFecha, varAtrDetChfNombre, varAtrDetAyuNombre, varAtrDetTrnPlaca, 0);
+            String varAtrDetZona = drFila["Zona"].ToString();
+
+            return new clsLogDetGuiaValorada(varAtrDetSecuencia, varAtrDetCabGuia, varAtrDetDocNombre, varAtrDetCabNumero, varAtrDetCabFecha, varAtrDetChfNombre, varAtrDetAyuNombre, varAtrDetTrnPlaca, 0, varAtrDetZona);
         }
     }
 }

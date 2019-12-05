@@ -30,13 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xfrmComManGenCodigoBarra));
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition3 = new DevExpress.XtraGrid.StyleFormatCondition();
-            DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition4 = new DevExpress.XtraGrid.StyleFormatCondition();
+            DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition1 = new DevExpress.XtraGrid.StyleFormatCondition();
+            DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition2 = new DevExpress.XtraGrid.StyleFormatCondition();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -52,6 +47,8 @@
             this.txtNomSerie = new DevExpress.XtraEditors.TextEdit();
             this.lblSerie = new DevExpress.XtraEditors.LabelControl();
             this.grcDetalle = new DevExpress.XtraGrid.GridControl();
+            this.cmsmenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.smiEliminar = new System.Windows.Forms.ToolStripMenuItem();
             this.grvDetalle = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colAtrDetSecuencia = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAtrIteCodigo = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -75,8 +72,6 @@
             this.txtCodSerie = new DevExpress.XtraEditors.TextEdit();
             this.dxValidation = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
             this.txtCodigo = new DevExpress.XtraEditors.TextEdit();
-            this.cmsmenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.smiEliminar = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datFecha.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datFecha.Properties)).BeginInit();
@@ -85,6 +80,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtNumero.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNomSerie.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grcDetalle)).BeginInit();
+            this.cmsmenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grvDetalle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gluItem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.igvItem)).BeginInit();
@@ -95,7 +91,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtCodSerie.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dxValidation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCodigo.Properties)).BeginInit();
-            this.cmsmenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -169,9 +164,8 @@
             this.bedProveedor.Properties.Appearance.Options.UseFont = true;
             this.bedProveedor.Properties.AutoHeight = false;
             this.bedProveedor.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
-            editorButtonImageOptions3.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions3.Image")));
             this.bedProveedor.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph)});
             this.bedProveedor.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bedProveedor.Size = new System.Drawing.Size(101, 23);
             this.bedProveedor.TabIndex = 1;
@@ -253,6 +247,23 @@
             this.grcDetalle.TabIndex = 3;
             this.grcDetalle.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvDetalle});
+            // 
+            // cmsmenu
+            // 
+            this.cmsmenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.smiEliminar});
+            this.cmsmenu.Name = "contextMenuStrip1";
+            this.cmsmenu.Size = new System.Drawing.Size(131, 26);
+            this.cmsmenu.Text = "Menu";
+            // 
+            // smiEliminar
+            // 
+            this.smiEliminar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smiEliminar.Image = global::umbAplicacion.Properties.Resources.imgBorrar16;
+            this.smiEliminar.Name = "smiEliminar";
+            this.smiEliminar.Size = new System.Drawing.Size(130, 22);
+            this.smiEliminar.Text = "Borrar linea";
+            this.smiEliminar.Click += new System.EventHandler(this.smiEliminar_Click);
             // 
             // grvDetalle
             // 
@@ -377,27 +388,27 @@
             this.colDetImprimir,
             this.colAtrDetLote,
             this.colAtrDetTieneLote});
-            styleFormatCondition3.Appearance.BackColor = System.Drawing.Color.Salmon;
-            styleFormatCondition3.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F);
-            styleFormatCondition3.Appearance.ForeColor = System.Drawing.Color.Maroon;
-            styleFormatCondition3.Appearance.Options.UseBackColor = true;
-            styleFormatCondition3.Appearance.Options.UseFont = true;
-            styleFormatCondition3.Appearance.Options.UseForeColor = true;
-            styleFormatCondition3.ApplyToRow = true;
-            styleFormatCondition3.Column = this.colDetCantidad;
-            styleFormatCondition3.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal;
-            styleFormatCondition3.Value1 = "D";
-            styleFormatCondition4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            styleFormatCondition4.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F);
-            styleFormatCondition4.Appearance.Options.UseBackColor = true;
-            styleFormatCondition4.Appearance.Options.UseFont = true;
-            styleFormatCondition4.ApplyToRow = true;
-            styleFormatCondition4.Column = this.colDetCantidad;
-            styleFormatCondition4.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal;
-            styleFormatCondition4.Value1 = "A";
+            styleFormatCondition1.Appearance.BackColor = System.Drawing.Color.Salmon;
+            styleFormatCondition1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F);
+            styleFormatCondition1.Appearance.ForeColor = System.Drawing.Color.Maroon;
+            styleFormatCondition1.Appearance.Options.UseBackColor = true;
+            styleFormatCondition1.Appearance.Options.UseFont = true;
+            styleFormatCondition1.Appearance.Options.UseForeColor = true;
+            styleFormatCondition1.ApplyToRow = true;
+            styleFormatCondition1.Column = this.colDetCantidad;
+            styleFormatCondition1.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal;
+            styleFormatCondition1.Value1 = "D";
+            styleFormatCondition2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            styleFormatCondition2.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F);
+            styleFormatCondition2.Appearance.Options.UseBackColor = true;
+            styleFormatCondition2.Appearance.Options.UseFont = true;
+            styleFormatCondition2.ApplyToRow = true;
+            styleFormatCondition2.Column = this.colDetCantidad;
+            styleFormatCondition2.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal;
+            styleFormatCondition2.Value1 = "A";
             this.grvDetalle.FormatConditions.AddRange(new DevExpress.XtraGrid.StyleFormatCondition[] {
-            styleFormatCondition3,
-            styleFormatCondition4});
+            styleFormatCondition1,
+            styleFormatCondition2});
             this.grvDetalle.GridControl = this.grcDetalle;
             this.grvDetalle.Name = "grvDetalle";
             this.grvDetalle.OptionsCustomization.AllowColumnMoving = false;
@@ -812,23 +823,6 @@
             this.txtCodigo.TabIndex = 668;
             this.txtCodigo.Visible = false;
             // 
-            // cmsmenu
-            // 
-            this.cmsmenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.smiEliminar});
-            this.cmsmenu.Name = "contextMenuStrip1";
-            this.cmsmenu.Size = new System.Drawing.Size(131, 26);
-            this.cmsmenu.Text = "Menu";
-            // 
-            // smiEliminar
-            // 
-            this.smiEliminar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.smiEliminar.Image = global::umbAplicacion.Properties.Resources.imgBorrar16;
-            this.smiEliminar.Name = "smiEliminar";
-            this.smiEliminar.Size = new System.Drawing.Size(152, 22);
-            this.smiEliminar.Text = "Borrar linea";
-            this.smiEliminar.Click += new System.EventHandler(this.smiEliminar_Click);
-            // 
             // xfrmComManGenCodigoBarra
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -873,6 +867,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtNumero.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNomSerie.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grcDetalle)).EndInit();
+            this.cmsmenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grvDetalle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gluItem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.igvItem)).EndInit();
@@ -883,7 +878,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtCodSerie.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dxValidation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCodigo.Properties)).EndInit();
-            this.cmsmenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

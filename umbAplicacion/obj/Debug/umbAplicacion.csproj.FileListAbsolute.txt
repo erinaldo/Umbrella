@@ -2728,6 +2728,7 @@ E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.frmOpcionEdit.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.frmOpciones.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.frmPrincipal.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.GestionBancos.Listado.xfrmGbaLisExtBancario.resources
+E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.GestionBancos.Listado.xfrmGbaLisPagEfectuado.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.GestionBancos.Mantenimiento.xfrmGbaManExtBancario.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.Granja.Auxiliar.xfrmGraAuxActivacion.resources
 E:\GitHub\Umbrella\umbAplicacion\obj\Debug\umbAplicacion.Granja.Auxiliar.xfrmGraAuxDosis.resources

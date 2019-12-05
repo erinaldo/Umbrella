@@ -207,6 +207,7 @@ namespace umbAplicacion.Compras.Listado
                 objImpresionEtiquetaBPM = new crtEtiquetaCarnesBPM();
                 objImpresionEtiquetaBPM.SetDataSource(dtValoresEtiqueta);
                 objImpresionEtiquetaBPM.PrintOptions.PrinterName = ConfigurationManager.AppSettings["ImpresoraEtiqueta"];
+                
                 objImpresionEtiquetaBPM.PrintToPrinter(objFilaDetalle.atrDetNroImpresion, false, 0, 1);
             }
         }

@@ -45,6 +45,7 @@ namespace umbNegocio.Logistica
         public string CabDocEstado { get; set; }
         public string CabDocError { get; set; }
         public string CabDocAutorizacion { get; set; }
+        public string CabZona { get; set; }
 
         public string UsuCrea { get; set; }
         public DateTime UsuFechaCrea { get; set; }
@@ -122,6 +123,7 @@ namespace umbNegocio.Logistica
             objRegistro.UsuCodigo = drRegistro["UsuCodigo"] == System.DBNull.Value ? "" : drRegistro["UsuCodigo"].ToString();
             objRegistro.UsuNombre = drRegistro["UsuNombre"] == System.DBNull.Value ? "" : drRegistro["UsuNombre"].ToString();
             objRegistro.EstCodigo = drRegistro["EstCodigo"] == System.DBNull.Value ? "" : drRegistro["EstCodigo"].ToString();
+            objRegistro.CabZona = drRegistro["Zona"] == System.DBNull.Value ? "" : drRegistro["Zona"].ToString();
 
             objRegistro.UsuCrea = drRegistro["UsuCrea"].ToString();
             objRegistro.UsuFechaCrea = (DateTime)drRegistro["UsuFechaCrea"];

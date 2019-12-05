@@ -30,7 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xfrmProManFormulacion));
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.bedItem = new DevExpress.XtraEditors.ButtonEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
@@ -163,11 +167,13 @@
             // 
             this.btnCancelar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Appearance.Options.UseFont = true;
+            this.btnCancelar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.ImageOptions.Image")));
             // 
             // btnGrabar
             // 
             this.btnGrabar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGrabar.Appearance.Options.UseFont = true;
+            this.btnGrabar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGrabar.ImageOptions.Image")));
             // 
             // panel1
             // 
@@ -185,8 +191,9 @@
             this.bedItem.Properties.Appearance.Options.UseFont = true;
             this.bedItem.Properties.AutoHeight = false;
             this.bedItem.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
             this.bedItem.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("bedItem.Properties.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.bedItem.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bedItem.Size = new System.Drawing.Size(132, 23);
             this.bedItem.TabIndex = 0;
@@ -196,6 +203,7 @@
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Location = new System.Drawing.Point(12, 17);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(25, 15);
@@ -205,6 +213,7 @@
             // labelControl5
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Location = new System.Drawing.Point(12, 85);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(43, 15);
@@ -260,6 +269,7 @@
             // lblDescripcion
             // 
             this.lblDescripcion.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescripcion.Appearance.Options.UseFont = true;
             this.lblDescripcion.Location = new System.Drawing.Point(12, 41);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(61, 15);
@@ -285,6 +295,8 @@
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl2.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.labelControl2.Appearance.Options.UseFont = true;
+            this.labelControl2.Appearance.Options.UseForeColor = true;
             this.labelControl2.Location = new System.Drawing.Point(778, 17);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(76, 15);
@@ -294,6 +306,7 @@
             // labelControl4
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Location = new System.Drawing.Point(12, 62);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(26, 15);
@@ -517,9 +530,9 @@
             this.gluItem.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.StartsWith;
             this.gluItem.PopupFormMinSize = new System.Drawing.Size(500, 200);
             this.gluItem.PopupFormSize = new System.Drawing.Size(500, 200);
+            this.gluItem.PopupView = this.igvItem;
             this.gluItem.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.gluItem.ValueMember = "ItemCode";
-            this.gluItem.View = this.igvItem;
             this.gluItem.Popup += new System.EventHandler(this.gluItem_Popup);
             this.gluItem.Leave += new System.EventHandler(this.gluItem_Leave);
             // 
@@ -971,9 +984,9 @@
             this.gluOperacion.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.StartsWith;
             this.gluOperacion.PopupFormMinSize = new System.Drawing.Size(500, 200);
             this.gluOperacion.PopupFormSize = new System.Drawing.Size(500, 200);
+            this.gluOperacion.PopupView = this.grvOperacion;
             this.gluOperacion.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.gluOperacion.ValueMember = "OppCodigo";
-            this.gluOperacion.View = this.grvOperacion;
             this.gluOperacion.Popup += new System.EventHandler(this.gluOperacion_Popup);
             this.gluOperacion.Leave += new System.EventHandler(this.gluOperacion_Leave);
             // 
@@ -1186,9 +1199,9 @@
             this.gluRecurso.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.StartsWith;
             this.gluRecurso.PopupFormMinSize = new System.Drawing.Size(500, 200);
             this.gluRecurso.PopupFormSize = new System.Drawing.Size(500, 200);
+            this.gluRecurso.PopupView = this.grvRecurso;
             this.gluRecurso.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.gluRecurso.ValueMember = "RecCodigo";
-            this.gluRecurso.View = this.grvRecurso;
             this.gluRecurso.Popup += new System.EventHandler(this.gluRecurso_Popup);
             this.gluRecurso.Leave += new System.EventHandler(this.gluRecurso_Leave);
             // 
@@ -1537,7 +1550,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.iluMerma.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MerCodigo", "Codigo"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MerNombre", 250, "Merma")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MerNombre", "Merma", 250, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.iluMerma.DisplayMember = "MerNombre";
             this.iluMerma.Name = "iluMerma";
             this.iluMerma.NullText = "";
@@ -1628,6 +1641,8 @@
             // 
             this.lblGrupo.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGrupo.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblGrupo.Appearance.Options.UseFont = true;
+            this.lblGrupo.Appearance.Options.UseForeColor = true;
             this.lblGrupo.Location = new System.Drawing.Point(251, 61);
             this.lblGrupo.Name = "lblGrupo";
             this.lblGrupo.Size = new System.Drawing.Size(35, 15);
@@ -1653,6 +1668,8 @@
             // 
             this.lblUndVenta.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUndVenta.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblUndVenta.Appearance.Options.UseFont = true;
+            this.lblUndVenta.Appearance.Options.UseForeColor = true;
             this.lblUndVenta.Location = new System.Drawing.Point(778, 40);
             this.lblUndVenta.Name = "lblUndVenta";
             this.lblUndVenta.Size = new System.Drawing.Size(55, 15);
@@ -1679,6 +1696,8 @@
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl6.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.labelControl6.Appearance.Options.UseFont = true;
+            this.labelControl6.Appearance.Options.UseForeColor = true;
             this.labelControl6.Location = new System.Drawing.Point(778, 64);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(71, 15);
@@ -1727,7 +1746,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lueArea.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Codigo", "Codigo"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descripcion", 100, "Nombre")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descripcion", "Nombre", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lueArea.Properties.DisplayMember = "Descripcion";
             this.lueArea.Properties.NullText = "";
             this.lueArea.Properties.ValueMember = "Codigo";
@@ -1737,6 +1756,7 @@
             // lblObservaciones
             // 
             this.lblObservaciones.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObservaciones.Appearance.Options.UseFont = true;
             this.lblObservaciones.Location = new System.Drawing.Point(12, 559);
             this.lblObservaciones.Name = "lblObservaciones";
             this.lblObservaciones.Size = new System.Drawing.Size(73, 15);
@@ -1772,7 +1792,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lueRuta.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("PrsCodigo", "Codigo"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("PrsNombre", 100, "Ruta Std")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("PrsNombre", "Ruta Std", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lueRuta.Properties.DisplayMember = "PrsNombre";
             this.lueRuta.Properties.NullText = "";
             this.lueRuta.Properties.ValueMember = "PrsCodigo";
@@ -1782,6 +1802,7 @@
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Location = new System.Drawing.Point(778, 86);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(26, 15);
@@ -1818,6 +1839,7 @@
             // labelControl7
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.Location = new System.Drawing.Point(275, 16);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(26, 15);

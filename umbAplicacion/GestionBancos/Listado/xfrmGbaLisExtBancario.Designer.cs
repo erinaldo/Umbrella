@@ -30,6 +30,7 @@
         {
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression1 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xfrmGbaLisExtBancario));
             this.colCabFecha = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDocNombre = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCabNumero = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -187,27 +188,32 @@
             // 
             this.btnNuevo.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevo.Appearance.Options.UseFont = true;
+            this.btnNuevo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.ImageOptions.Image")));
             // 
             // btnEliminar
             // 
             this.btnEliminar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Appearance.Options.UseFont = true;
+            this.btnEliminar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.ImageOptions.Image")));
             // 
             // btnModificar
             // 
             this.btnModificar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.Appearance.Options.UseFont = true;
+            this.btnModificar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.ImageOptions.Image")));
             // 
             // btnCerrar
             // 
             this.btnCerrar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.Appearance.Options.UseFont = true;
+            this.btnCerrar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.ImageOptions.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(836, 11);
             // 
             // btnConsultar
             // 
             this.btnConsultar.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultar.Appearance.Options.UseFont = true;
+            this.btnConsultar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultar.ImageOptions.Image")));
             this.btnConsultar.Location = new System.Drawing.Point(737, 11);
             // 
             // panel1
@@ -272,7 +278,7 @@
             this.btnEnviarSAP.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarSAP.Appearance.Options.UseFont = true;
             this.btnEnviarSAP.Enabled = false;
-            this.btnEnviarSAP.Image = global::umbAplicacion.Properties.Resources.imgSAP16;
+            this.btnEnviarSAP.ImageOptions.Image = global::umbAplicacion.Properties.Resources.imgSAP16;
             this.btnEnviarSAP.Location = new System.Drawing.Point(302, 11);
             this.btnEnviarSAP.Name = "btnEnviarSAP";
             this.btnEnviarSAP.Size = new System.Drawing.Size(93, 26);

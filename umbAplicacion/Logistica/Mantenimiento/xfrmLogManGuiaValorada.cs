@@ -73,7 +73,7 @@ namespace umbAplicacion.Logistica.Mantenimiento
                         ((clsLogDetGuiaValorada)this.grvDetalle.GetRow(varPosicion)).AtrDetValor = double.Parse(varValor.ToString());
                     }
                 objDetalle.RemoveAll(p => p.AtrDetValor == 0);
-                String varResultado = daoLogGuiaValorada.getInstance().metInsertar(new clsLogGuiaValorada(varId, varFecha, varAgrupado, varValor, varRuta, objDetalle));
+                String varResultado = daoLogGuiaValorada.getInstance().metInsertar(new clsLogGuiaValorada(varId, varFecha, varAgrupado, varValor, "", varRuta, objDetalle));
                 if (varResultado.Equals("Ok")) {
                     if (varOpeCodigo.Equals(1))
                         clsMensajesSistema.metMsgInformativo("Registro ingresado con exito");
@@ -102,7 +102,8 @@ namespace umbAplicacion.Logistica.Mantenimiento
                                 String atrDetChfNombre = drFilaCabecera.ChfNombre;
                                 String atrDetAyuNombre = drFilaCabecera.AyuNombre;
                                 String atrDetTrnPlaca = drFilaCabecera.TrnPlaca;
-                                objDetalle.Add(new clsLogDetGuiaValorada(++varSecuencia, atrDetCabGuia, atrDetDocNombre, atrDetCabNumero, atrDetCabFecha, atrDetChfNombre, atrDetAyuNombre, atrDetTrnPlaca, 0));
+                                String atrDetZona = drFilaCabecera.CabZona;
+                                objDetalle.Add(new clsLogDetGuiaValorada(++varSecuencia, atrDetCabGuia, atrDetDocNombre, atrDetCabNumero, atrDetCabFecha, atrDetChfNombre, atrDetAyuNombre, atrDetTrnPlaca, 0, atrDetZona));
                             }
                         }
                         this.grcDetalle.RefreshDataSource();
@@ -158,7 +159,8 @@ namespace umbAplicacion.Logistica.Mantenimiento
                     String atrDetChfNombre = drFilaCabecera.ChfNombre;
                     String atrDetAyuNombre = drFilaCabecera.AyuNombre;
                     String atrDetTrnPlaca = drFilaCabecera.TrnPlaca;
-                    objDetalle.Add(new clsLogDetGuiaValorada(++varSecuencia, atrDetCabGuia, atrDetDocNombre, atrDetCabNumero, atrDetCabFecha, atrDetChfNombre, atrDetAyuNombre, atrDetTrnPlaca, 0));
+                    String atrDetZona = drFilaCabecera.CabZona;
+                    objDetalle.Add(new clsLogDetGuiaValorada(++varSecuencia, atrDetCabGuia, atrDetDocNombre, atrDetCabNumero, atrDetCabFecha, atrDetChfNombre, atrDetAyuNombre, atrDetTrnPlaca, 0, atrDetZona));
                 }
                 this.grcDetalle.DataSource = objDetalle;
             } catch (Exception ex) { throw new Exception(ex.Message); }

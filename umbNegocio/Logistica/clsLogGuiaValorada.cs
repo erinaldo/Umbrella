@@ -12,16 +12,18 @@ namespace umbNegocio.Logistica
         private decimal atrCabValor;
         private string atrCabGuias;
         private bool atrCabAgrupado;
+        private string atrZona;
         private clsLogRutGuia atrCabRuta;
         private List<clsLogDetGuiaValorada> atrDetalle;
 
         public clsLogGuiaValorada() {}
-        public clsLogGuiaValorada(int atrCabCodigo, DateTime atrCabFecha, bool atrCabAgrupado, decimal atrCabValor, clsLogRutGuia atrCabRuta, List<clsLogDetGuiaValorada> atrDetalle) {
+        public clsLogGuiaValorada(int atrCabCodigo, DateTime atrCabFecha, bool atrCabAgrupado, decimal atrCabValor, string atrZona, clsLogRutGuia atrCabRuta, List<clsLogDetGuiaValorada> atrDetalle) {
             this.atrCabCodigo = atrCabCodigo;
             this.atrCabFecha = atrCabFecha;
             this.atrCabAgrupado = atrCabAgrupado;
             this.atrCabValor = atrCabValor;
             this.atrCabRuta = atrCabRuta;
+            this.atrZona = atrZona;
             this.atrDetalle = atrDetalle;
         }
 
@@ -53,6 +55,10 @@ namespace umbNegocio.Logistica
             get { return atrCabAgrupado; }
             set { atrCabAgrupado = value; }
         }
+        public string AtrZona {
+            get { return atrZona; }
+            set { atrZona = value; }
+        }
     }
 
     public class clsLogDetGuiaValorada {
@@ -65,9 +71,10 @@ namespace umbNegocio.Logistica
         private String atrDetAyuNombre;
         private String atrDetTrnPlaca;
         private double atrDetValor;
+        private String atrDetZona;
 
         public clsLogDetGuiaValorada() { }
-        public clsLogDetGuiaValorada(int atrDetSecuencia, int atrDetCabGuia, String atrDetDocNombre, int atrDetCabNumero, DateTime atrDetCabFecha, String atrDetChfNombre, String atrDetAyuNombre, String atrDetTrnPlaca, double atrDetValor) {
+        public clsLogDetGuiaValorada(int atrDetSecuencia, int atrDetCabGuia, String atrDetDocNombre, int atrDetCabNumero, DateTime atrDetCabFecha, String atrDetChfNombre, String atrDetAyuNombre, String atrDetTrnPlaca, double atrDetValor, String atrDetZona) {
             this.atrDetSecuencia = atrDetSecuencia;
             this.atrDetCabGuia = atrDetCabGuia;
             this.atrDetDocNombre = atrDetDocNombre;
@@ -77,6 +84,7 @@ namespace umbNegocio.Logistica
             this.atrDetAyuNombre = atrDetAyuNombre;
             this.atrDetTrnPlaca = atrDetTrnPlaca;
             this.atrDetValor = atrDetValor;
+            this.atrDetZona = atrDetZona;
         }
 
         public int AtrDetSecuencia
@@ -116,6 +124,10 @@ namespace umbNegocio.Logistica
         public double AtrDetValor {
             get { return atrDetValor; }
             set { atrDetValor = value; }
+        }
+        public string AtrDetZona {
+            get { return atrDetZona; }
+            set { atrDetZona = value; }
         }
     }
 }

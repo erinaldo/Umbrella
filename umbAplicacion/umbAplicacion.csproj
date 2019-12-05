@@ -375,6 +375,12 @@
     <Compile Include="GestionBancos\Listado\xfrmGbaLisExtBancario.Designer.cs">
       <DependentUpon>xfrmGbaLisExtBancario.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestionBancos\Listado\xfrmGbaLisPagEfectuado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionBancos\Listado\xfrmGbaLisPagEfectuado.Designer.cs">
+      <DependentUpon>xfrmGbaLisPagEfectuado.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestionBancos\Mantenimiento\xfrmGbaManExtBancario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -868,6 +874,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GestionBancos\Listado\xfrmGbaLisExtBancario.resx">
       <DependentUpon>xfrmGbaLisExtBancario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionBancos\Listado\xfrmGbaLisPagEfectuado.resx">
+      <DependentUpon>xfrmGbaLisPagEfectuado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionBancos\Mantenimiento\xfrmGbaManExtBancario.resx">
       <DependentUpon>xfrmGbaManExtBancario.cs</DependentUpon>
@@ -1803,6 +1812,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Produccion\Reportes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

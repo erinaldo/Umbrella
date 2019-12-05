@@ -46,6 +46,7 @@
             this.colAtrDetTrnPlaca = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAtrDetValor = new DevExpress.XtraGrid.Columns.GridColumn();
             this.itxValor = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colAtrDetZona = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnAgregar = new DevExpress.XtraEditors.SimpleButton();
             this.btnEliminar = new DevExpress.XtraEditors.SimpleButton();
             this.lblRuta = new DevExpress.XtraEditors.LabelControl();
@@ -252,7 +253,8 @@
             this.colAtrDetChfNombre,
             this.colAtrDetAyuNombre,
             this.colAtrDetTrnPlaca,
-            this.colAtrDetValor});
+            this.colAtrDetValor,
+            this.colAtrDetZona});
             this.grvDetalle.GridControl = this.grcDetalle;
             this.grvDetalle.Name = "grvDetalle";
             this.grvDetalle.OptionsCustomization.AllowColumnMoving = false;
@@ -368,7 +370,7 @@
             this.colAtrDetValor.FieldName = "AtrDetValor";
             this.colAtrDetValor.Name = "colAtrDetValor";
             this.colAtrDetValor.Visible = true;
-            this.colAtrDetValor.VisibleIndex = 8;
+            this.colAtrDetValor.VisibleIndex = 9;
             // 
             // itxValor
             // 
@@ -377,6 +379,15 @@
             this.itxValor.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.itxValor.Mask.UseMaskAsDisplayFormat = true;
             this.itxValor.Name = "itxValor";
+            // 
+            // colAtrDetZona
+            // 
+            this.colAtrDetZona.Caption = "Zona";
+            this.colAtrDetZona.FieldName = "AtrDetZona";
+            this.colAtrDetZona.Name = "colAtrDetZona";
+            this.colAtrDetZona.Visible = true;
+            this.colAtrDetZona.VisibleIndex = 8;
+            this.colAtrDetZona.Width = 250;
             // 
             // btnAgregar
             // 
@@ -522,5 +533,6 @@
         private DevExpress.XtraEditors.LookUpEdit lueRuta;
         private DevExpress.XtraEditors.CheckEdit chkAgrupado;
         private DevExpress.XtraGrid.Columns.GridColumn colAtrDetValor;
+        private DevExpress.XtraGrid.Columns.GridColumn colAtrDetZona;
     }
 }
